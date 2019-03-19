@@ -1,0 +1,14 @@
+table ;var;format;description;nomenclature
+IR_IMB_R;BEN_NIR_PSA;char(17);Pseudonyme du bénéficiaire;-
+IR_IMB_R;BEN_RNG_GEM;num(8);Rang gémellaire;-
+IR_IMB_R;IMB_ALD_DTD;date;Date de début de la pathologie;-
+IR_IMB_R;IMB_ALD_DTF;date;Date de fin de la pathologie;-
+IR_IMB_R;IMB_ALD_NUM;num(8);Numéro d'ALD sur la liste;IR_ALD_V
+IR_IMB_R;IMB_ETM_NAT;num(8);Type de PEC (ALD, Invalidité ou ATMP);-
+IR_IMB_R;IMB_MLP_BTR;char(1);Numéro de tableau maladies professionnelles;-
+IR_IMB_R;IMB_MLP_TAB;char(3);Tableau MP (A, B=bis, T=ter);-
+IR_IMB_R;IMB_SDR_LOP;char(1);Localisation, paragraphe, syndrome;-
+IR_IMB_R;INS_DTE;date;Date d'insertion dans le référentiel;-
+IR_IMB_R;MED_MTF_COD;char(6);Motif médical ou pathologie (Code CIM10);IR_CIM_V
+IR_IMB_R;MED_NCL_IDT;char(10);Nomenclature médicale (CIM10);-
+IR_IMB_R;UPD_DTE;date;Date de mise à jour;-

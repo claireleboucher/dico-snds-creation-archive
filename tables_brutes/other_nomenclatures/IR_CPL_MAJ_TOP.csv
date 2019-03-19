@@ -1,0 +1,4 @@
+CPL_MAJ_TOP_CAT;CPL_MAJ_TOP_LIB
+0;l’acte lui-même
+1;le complément d’acte nuit, férié ou urgence qui possède le code-acte de l’acte auquel il est rattaché
+2;les majorations d’actes qui possèdent un code-acte propre à elles, par exemple MDN (majoration de nuit), MBB (majoration nourrisson)...

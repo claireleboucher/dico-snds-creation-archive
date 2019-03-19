@@ -1,0 +1,52 @@
+table,var,format,description
+DA_PRA_R,DTE_MOI_FIN,CHAR(2),Mois de traitement
+DA_PRA_R,DTE_ANN_TRT,CHAR(4),Exercice de traitement
+DA_PRA_R,PFS_PFS_NUM,CHAR(8),N° du PS
+DA_PRA_R,TRT_SNI_COD,CHAR(1),Code traitement SNIR PS
+DA_PRA_R,IPP_IDV_NUM,CHAR(13),N.I.R. du P.S
+DA_PRA_R,IPP_SEX_COD,CHAR(1),Sexe du PS
+DA_PRA_R,IPP_ANN_NAI,CHAR(4),Année de naissance du P.S.
+DA_PRA_R,CAI_NUM,CHAR(3),Cpam gestionnaire du P.S.
+DA_PRA_R,ACT_CAB_COD,CHAR(2),Code cabinet d'un praticien
+DA_PRA_R,T733_CTR_NUM,CHAR(2),CTR de rattachement
+DA_PRA_R,PFS_PRA_SPE,CHAR(2),Spécialité Médicale PS
+DA_PRA_R,CES_CES_COD,CHAR(2),Code diplôme du P.S
+DA_PRA_R,PRA_MEP_COD,CHAR(2),Mode d'exercice particulier
+DA_PRA_R,CNV_CNV_COD,CHAR(1),Code convention nationale du P.S.
+DA_PRA_R,PRA_IDP_DDP,CHAR(1),Droit à dépassement
+DA_PRA_R,PRA_IDP_SAL,CHAR(1),Top salarié
+DA_PRA_R,EXC_EXC_NAT,CHAR(2),Nature d exercice
+DA_PRA_R,STA_PFS_NUM,CHAR(8),Num. P.S de chainage statistique.
+DA_PRA_R,STA_CAI_NUM,CHAR(3),CPAM resp. relevés stat P.S.
+DA_PRA_R,STA_CTR_NUM,CHAR(2),CTR DE CHAINAGE
+DA_PRA_R,T733_STA_URC,CHAR(2),URCAM DE CHAINAGE STATISTIQUE
+DA_PRA_R,FIS_PFS_NUM,CHAR(8),Numéro chainage fiscal d'un P.S.
+DA_PRA_R,FIS_CAI_NUM,CHAR(3),CPAM resp. relevé fisc. du P.S.
+DA_PRA_R,FIS_URC_COD,CHAR(2),URCAM de chaînage fiscal
+DA_PRA_R,PFS_ACP_DSD,CHAR(8),Date de début de spécialité Médicale PS
+DA_PRA_R,EXC_EFF_DSD,CHAR(8),Date effet nat. exercice du P.S
+DA_PRA_R,EXC_FIN_MTF,CHAR(1),Motif de fin d'exercice libéral
+DA_PRA_R,PFS_INS_DSD,CHAR(8),date d'installation d'un P.S
+DA_PRA_R,PRA_SAL_SPE1,CHAR(1),Spécialité salariés 1
+DA_PRA_R,PRA_SAL_SPE2,CHAR(1),Spécialité salariés 2
+DA_PRA_R,PRA_SAL_SPE3,CHAR(1),Spécialité salariés 3
+DA_PRA_R,PRA_SAL_SPE4,CHAR(1),Spécialité salariés 4
+DA_PRA_R,PRA_SAL_SPE5,CHAR(1),Spécialité salariés 5
+DA_PRA_R,PRA_SAL_SPE6,CHAR(1),Spécialité salariés 6
+DA_PRA_R,PRA_DIP_NBR,CHAR(2),Nb de salariés diplômés
+DA_PRA_R,PRA_SAL_NBR,CHAR(2),Nb de salariés non diplômés
+DA_PRA_R,PFS_SPE_ANT,CHAR(2),Spécialité Médicale PS antérieure
+DA_PRA_R,PFS_AMB_NBR,CHAR(2),Effectif du véhicule de type ambulance
+DA_PRA_R,PFS_VSL_NBR,CHAR(2),Effectif du véhicule de type VSL
+DA_PRA_R,PFS_TXI_NBR,CHAR(2),Effectif du véhicule de type Taxi
+DA_PRA_R,PRA_TOP_REF,CHAR(1),Code options conventionnelles
+DA_PRA_R,CAB_REF_DSD,CHAR(8),Date début du code options conventionnelles
+DA_PRA_R,CAB_REF_DSF,CHAR(8),Date fin du code options conventionnelles
+DA_PRA_R,LAB_CAT_COD,CHAR(2),Code catégorie laboratoire
+DA_PRA_R,PRA_CIV_COD,CHAR(1),Code civilité du PS
+DA_PRA_R,PFS_EXC_COM,CHAR(3),Code commune adr. prof du P.S.
+DA_PRA_R,PFS_COD_POS,CHAR(5),Code postal adr. prof du P.S.
+DA_PRA_R,PFS_LIB_COM,CHAR(30),Lib. commune adr. prof. du P.S
+DA_PRA_R,PFS_FIN_NUM,CHAR(8),NUMERO FINESS
+DA_PRA_R,PFS_MAJ_DAT,CHAR(2),Mois de dernière mise à jour durant l'exercice
+DA_PRA_R,PFS_SCN_COD,CHAR(5),Code association du P.S.

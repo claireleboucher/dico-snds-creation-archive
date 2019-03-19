@@ -1,0 +1,62 @@
+table;var;format;description;nomenclature
+KI_CCI_R;DCD_IDT_ENC;car(64);Identifiant décès encodé;-
+KI_CCI_R;DCD_IDT_TOP;num(1);Top apparié avec IR_BEN_R;-
+KI_CCI_R;BEN_IDT_ANO;car(18);Identifiant synthétique SNDS;-
+KI_CCI_R;BEN_IDT_TOP;num(1);TOP Identifiant synthétique SNDS;-
+KI_CCI_R;BEN_NIR_ANO;car(17);NIR pseudonymisé du bénéficiaires;-
+KI_CCI_R;FLX_PER_ANN;car(4);Année de décès;-
+KI_CCI_R;CER_VER_NUM;;Version du certificat;DS_VER_V
+KI_CCI_R;TRT_STA_COD;;Statut du traitement;DS_STA_V
+KI_CCI_R;TYP_CER_COD;;Type de certificat;DS_CER_V
+KI_CCI_R;CER_SUP_TYP;;Type de support;DS_VER_V
+KI_CCI_R;TYP_VOL_COD;num(1);Type de volet;DS_SUP_V
+KI_CCI_R;DCD_DPT_COD;car(3);Département de décès;IR_DPT_V
+KI_CCI_R;DCD_COM_CO;;Commune de décès;IR_GEO_V
+KI_CCI_R;BEN_RES_DPT;car(3);Département de domicile;IR_DPT_V
+KI_CCI_R;BEN_RES_COM;car(3);Commune de domicile;IR_GEO_V
+KI_CCI_R;BEN_DCD_DTE;date;Date du décès;-
+KI_CCI_R;BEN_DCD_AME;car(6);Année et mois du décès;AAAAMM
+KI_CCI_R;DCD_LIE_COD;num(1);Lieu du décès;DS_LIE_V
+KI_CCI_R;BEN_NAI_ANN;car(4);Année de naissance;-
+KI_CCI_R;BEN_NAI_MOI;car(2);Mois de naissance;-
+KI_CCI_R;BEN_SEX_COD;num(1);Sexe;IR_SEX_V
+KI_CCI_R;PFV_ACP_COD;num(1);Activité professionnelle;DS_ACP_V
+KI_CCI_R;CAT_PCS_COD;car(4);Profession et caégorie socioprofessionnelle;DS_PC1_V,DS_PC2_V,DS_PC3_V
+KI_CCI_R;ETA_MAR_COD;num(1);Etat matrimonial;DS_MAR_V
+KI_CCI_R;DCD_CIM_COD;car(4);Cause initiale du décès;IR_CCI_V,IR_CIM_V,MS_CIM_V
+KI_CCI_R;DCD_CAU_COD;num(1);Recherche de la cause de décès;DS_CAU_V
+KI_CCI_R;DCD_GRS_COD;num(1);La grossesse a contribué au décès;DS_GRS_V
+KI_CCI_R;DCD_GRS_DEL;car(4);Délai entre fin de grossesse et décès;-
+KI_CCI_R;DCD_LIE_LIB;car(200);Lieu de lévénement si mort violente;-
+KI_CCI_R;DCD_ATT_COD;num(1);Accident du travail;DS_ATT_V
+KI_CCI_R;NEO_APG_SCO;num(2);Apgar à une minute;-
+KI_CCI_R;NEO_GES_AGE;num(2);Age gestationnel en semaines révoleus d'amenhorrées;-
+KI_CCI_R;NEO_NAI_POI;num(4,0);Poids de naissance en grammes;-
+KI_CCI_R;RNG_NAI_TYP;num(1);Type de naissance;DS_NAI_V
+KI_CCI_R;GRS_ORD_NU;num(1);Numéro d'ordre de l'enfant si grossesse multiple;-
+KI_CCI_R;ACC_LIA_COD;num(1);Lieu d'accouchement;DS_LIA_V
+KI_CCI_R;ACC_PST_COD;num(1);Présentation de l'enfant;DS_PST_V
+KI_CCI_R;ACC_DEB_COD;num(1);Début du travail;DS_DEB_V
+KI_CCI_R;MOD_ACC_COD;num(1);Mode d'accouchement;DS_ACC_V
+KI_CCI_R;HOS_TRF_TOP;num(1);Transfert de l'hospitalisation particulière de l'enfant;DS_TRF_V
+KI_CCI_R;MER_NAI_ANN;car(4);Année de naissance de la mère;-
+KI_CCI_R;MER_PFS_COD;num(1);Activité professionnelle de la mère;DS_PFS_V
+KI_CCI_R;MER_PFG_LIB;car(50);Profession de la mère exercée pendant la grossesse;-
+KI_CCI_R;MER_MAR_CO;num(1);Etat matrimonial de la mère;DS_MAR_V
+KI_CCI_R;MER_SIT_TOP;num(1);La mère vit-elle en couple ?;DS_SIT_V
+KI_CCI_R;TOT_GRS_NBR;num(2);Nombre total de grossesses;-
+KI_CCI_R;TOT_ACC_NBR;num(2);Nombre total d'accouchements;-
+KI_CCI_R;PER_PFS_COD;num(1);Activité professionnelle du père;DS_PFS_V
+KI_CCI_R;PER_PFG_LIB;car(50);Profession du père exercée pendant la grossesse;-
+KI_ECD_R;DCD_IDT_ENC;car(64);Identifiant décès encodé;-
+KI_ECD_R;DCD_IDT_TOP;num(1);Top apparié avec IR_BEN_R;-
+KI_ECD_R;BEN_IDT_ANO;car(18);Identifiant synthétique SNDS;-
+KI_ECD_R;BEN_IDT_TOP;num(1);TOP Identifiant synthétique SNDS;-
+KI_ECD_R;BEN_NIR_ANO;car(17);NIR pseudonymisé du bénéficiaires;-
+KI_ECD_R;FLX_PER_ANN;car(4);Année du décès;-
+KI_ECD_R;CER_LIG_NUM;num(1);Numéro de ligne du certificat de décès;-
+KI_ECD_R;ECD_CAU_RNG;num(3);Rang de la cause;-
+KI_ECD_R;ECD_CAU_LIB;car(100);Libellé de la cause;-
+KI_ECD_R;ECD_CIM_COD;car(4);Code de la cause;IR_CCI_V,IR_CIM_V,MS_CIM_V
+KI_ECD_R;BEN_DCD_DTE;date;Date du décès;-
+KI_ECD_R;BEN_DCD_AME;car(6);Année et mois du décès;AAAAMM
